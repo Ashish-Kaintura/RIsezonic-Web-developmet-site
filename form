@@ -1,0 +1,107 @@
+ <form class="colorful-form">
+                  <div class="form-group">
+                    <label class="form-label" for="name">Name:</label>
+                    <input
+                      required=""
+                      placeholder="Enter your name"
+                      class="form-input"
+                      type="text"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label" for="email">Email:</label>
+                    <input
+                      required=""
+                      placeholder="Enter your email"
+                      class="form-input"
+                      type="email"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label" for="contactnumber"
+                      >Contact Number:</label
+                    >
+                    <input
+                      required=""
+                      placeholder="Enter your number"
+                      class="form-input"
+                      name="contactnumberr"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label" for="message">Message:</label>
+                    <textarea
+                      required=""
+                      placeholder="Enter your message"
+                      class="form-input"
+                    ></textarea>
+                  </div>
+                  <button
+                    class="form-button bg-red-600"
+                    type="button"
+                    onclick="validateForm()"
+                  >
+                    Submit
+                  </button>
+                </form>
+                <div id="thank-you-message" style="display: none">
+                  <p
+                    class="text-green-700 text-2xl font-semibold font-kepler text-center"
+                  >
+                    Thank you for your submission!
+                  </p>
+                </div>
+              </div>
+              <script src="https://smtpjs.com/v3/smtp.js"></script>
+              <script>
+                function validateForm() {
+                  let name = document.getElementById("name").value;
+                  let email = document.getElementById("email").value;
+                  let contactnumber =
+                    document.getElementById("contactnumber").value;
+                  let message = document.getElementById("message").value;
+
+                  if (
+                    name === "" ||
+                    email === "" ||
+                    contactnumber === "" ||
+                    message === ""
+                  ) {
+                    alert("Please fill in all required fields.");
+                  } else {
+                    sendEmail();
+                  }
+                }
+                function sendEmail() {
+                  let name = document.getElementById("name").value;
+                  let email = document.getElementById("email").value;
+                  let contactnumber =
+                    document.getElementById("contactnumber").value;
+                  let message = document.getElementById("message").value;
+                  // Show the "Thank you" message after successful submission
+                  document.getElementById("thank-you-message").style.display =
+                    "block";
+                  document.querySelector("form").style.display = "none";
+                  document.querySelector("form").reset();
+                  let body =
+                    "Name: " +
+                    name +
+                    "<br/> Email: " +
+                    email +
+                    "<br/> Contact Number: " +
+                    contactnumber +
+                    "<br/> Message: " +
+                    message;
+
+                  Email.send({
+                    Host: "smtp.elasticemail.com",
+                    Username: "ashishkaintura305@gmail.com",
+                    Password: "54CFD585FC8FA7992CE7F3D73A8A2B8A3BCE",
+                    To: "Info@risezonic.com",
+                    From: "ashishkaintura305@gmail.com",
+                    Subject: "Info Regarding travels",
+                    Body: body,
+                  }).then((message) => alert(message));
+                  console.log(message);
+                }
+              </script>

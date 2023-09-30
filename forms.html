@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+            fontFamily: {
+              kepler: ["Kepler-Italic"],
+              Time: ["times new roman,times,serif"],
+              Quattrocento: ["Quattrocento Sans"],
+              Poduct: ["Product Sans Medium Regular',Arial,sans-serif"],
+              Futura: ["Futura Md BT,Arial,sans-serif"],
+            },
+            letterSpacing: {
+              widest: ".45em",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="Css/typewriter.css" />
+    <link rel="stylesheet" href="Css/index.css" />
+    <link rel="stylesheet" href="Css/fom.css" />
+    <link rel="stylesheet" href="Css/swipper.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <title>Home</title>
+  </head>
+  <body>
+    <section class="sm:px-8 sm:py-2 mb-2">
+      <div
+        class="sm:px-28 sm:p-5 p-2 rounded-t-xl flex flex-col justify-center border-2 shadow-inner"
+        style="
+          background-image: url(background/form-back-ground-1.png);
+          background-repeat: no-repeat;
+          background-position: center;
+          object-fit: contain;
+        "
+      >
+        <div class="sm:px-20 px-2 sm:py-10 flex flex-col font-Futura">
+          <div
+            class="font-bold sm:text-4xl text-3xl flex flex-col sm:ps-[145px] px-10"
+          >
+            <h1>A Trusted Company by Top Brands</h1>
+            <h2 class="text-sm pt-2">
+              Share your information and we will contact you soon.
+            </h2>
+          </div>
+          <div class="flex justify-center">
+            <form class="pt-5">
+              <div>
+                <div class="sm:flex sm:gap-10">
+                  <div class="flex flex-col sm:mb-2 mb-4">
+                    <label class="font-Futura font-semibold pb-2" for="name"
+                      >Name:</label
+                    >
+                    <input
+                      required=""
+                      placeholder="Enter your name*"
+                      type="text"
+                      id="name"
+                      class="sm:w-96 w-[300px] border-none rounded-2xl shadow-neutral-300 shadow-[rgba(25,_25,_26,_0.2)_0px_0px_20px] drop-shadow-xl border-3 border-white shadow-inner"
+                    />
+                  </div>
+                  <div class="flex flex-col sm:mb-4 mb-2">
+                    <label class="font-Futura font-semibold pb-2" for="email"
+                      >Email:</label
+                    >
+                    <input
+                      required=""
+                      placeholder="Enter your email*"
+                      type="email"
+                      id="email"
+                      class="sm:w-96 w-[300px] border-none rounded-2xl shadow-neutral-300 shadow-[rgba(25,_25,_26,_0.2)_0px_0px_20px] drop-shadow-xl border-3 border-white shadow-inner"
+                    />
+                  </div>
+                </div>
+                <div class="sm:flex sm:gap-10 ">
+                  <div class="flex flex-col sm:mb-4 mb-2">
+                    <label
+                      class="font-Futura font-semibold pb-2"
+                      for="contactnumber"
+                      >Contact Number:</label
+                    >
+                    <input
+                      required=""
+                      placeholder="Enter your Number*"
+                      type="tel"
+                      id="contactnumber"
+                      class="sm:w-96 w-[300px] border-none rounded-2xl shadow-neutral-300 shadow-[rgba(25,_25,_26,_0.2)_0px_0px_20px] drop-shadow-xl border-3 border-white shadow-inner"
+                    />
+                  </div>
+                  <div class="flex flex-col sm:mb-4 mb-2">
+                    <label
+                      class="font-Futura font-semibold pb-2"
+                      for="companyname"
+                      >Company Name :</label
+                    >
+                    <input
+                      required=""
+                      placeholder="Enter your Company Name*"
+                      type="text"
+                      id="companyname"
+                      class="sm:w-96 w-[300px] border-none rounded-2xl shadow-neutral-300 shadow-[rgba(25,_25,_26,_0.2)_0px_0px_20px] drop-shadow-xl border-3 border-white shadow-inner"
+                    />
+                  </div>
+                </div>
+                <div class="sm:flex sm:gap-10 ">
+                  <div class="flex flex-col sm:mb-4 mb-2">
+                    <label class="font-Futura font-semibold pb-2" for="message"
+                      >Message:</label
+                    >
+                    <textarea
+                      required=""
+                      placeholder="Enter your message"
+                      id="message"
+                      class="sm:w-96 w-[300px] border-none rounded-2xl shadow-neutral-300 shadow-[rgba(25,_25,_26,_0.2)_0px_0px_20px] drop-shadow-xl border-3 border-white shadow-inner"
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="flex justify-center text-center sm:px-64 my-6">
+                <button
+                  class="form-button bg-red-600"
+                  type="button"
+                  onclick="validateForm()"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+          <div id="thank-you-message" style="display: none">
+            <p
+              class="text-green-700 text-2xl font-semibold font-kepler text-center"
+            >
+              Thank you for your submission!
+            </p>
+          </div>
+        </div>
+      </div>
+      <script src="https://smtpjs.com/v3/smtp.js"></script>
+      <script>
+        function validateForm() {
+          let name = document.getElementById("name").value;
+          let email = document.getElementById("email").value;
+          let contactnumber = document.getElementById("contactnumber").value;
+          let companyname = document.getElementById("companyname").value;
+          let message = document.getElementById("message").value;
+
+          if (
+            name === "" ||
+            email === "" ||
+            contactnumber === "" ||
+            companyname === "" ||
+            message === ""
+          ) {
+            alert("Please fill in all required fields.");
+          } else {
+            sendEmail(); // Corrected function name
+          }
+        }
+
+        function sendEmail() {
+          let name = document.getElementById("name").value;
+          let email = document.getElementById("email").value;
+          let contactnumber = document.getElementById("contactnumber").value;
+          let companyname = document.getElementById("companyname").value;
+          let message = document.getElementById("message").value;
+
+          // Show the "Thank you" message after successful submission
+          document.getElementById("thank-you-message").style.display = "block";
+          //   document.querySelector("form").style.display = "none";
+          document.querySelector("form").reset();
+          let body =
+            "Name: " +
+            name +
+            "<br/> Email: " +
+            email +
+            "<br/> Contact Number: " +
+            contactnumber +
+            "<br/> Company Name: " +
+            companyname +
+            "<br/> Message: " +
+            message;
+
+          Email.send({
+            Host: "smtp.elasticemail.com",
+            Username: "ashishkaintura305@gmail.com",
+            Password: "54CFD585FC8FA7992CE7F3D73A8A2B8A3BCE",
+            To: "Info@risezonictravel.com",
+            From: "ashishkaintura305@gmail.com",
+            Subject: "Leads For Risezonic",
+            Body: body,
+          }).then((companyname) => alert(companyname));
+          console.log(companyname);
+        }
+      </script>
+    </section>
+  </body>
+</html>

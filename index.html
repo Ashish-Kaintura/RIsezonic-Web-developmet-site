@@ -1,0 +1,1353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+            fontFamily: {
+              kepler: ["Kepler-Italic"],
+              Time: ["times new roman,times,serif"],
+              Quattrocento: ["Quattrocento Sans"],
+              Poduct: ["Product Sans Medium Regular',Arial,sans-serif"],
+              Futura: ["Futura Md BT,Arial,sans-serif"],
+            },
+            letterSpacing: {
+              widest: ".45em",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="Css/typewriter.css" />
+    <link rel="stylesheet" href="Css/index.css" />
+    <link rel="stylesheet" href="Css/fom.css" />
+    <link rel="stylesheet" href="Css/swipper.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <title>Home</title>
+  </head>
+  <body>
+    <!-- ###################################################### -->
+
+    <div class="flex justify-evenly bg-[#f0eeee] py-3 items-center">
+      <div>
+        <img
+          class="sm:w-[15%] w-[45%]"
+          src="logo/cropped-Risezonic-logo-1024x186.png"
+          alt=""
+        />
+      </div>
+      <div class="sm:flex hidden">
+        <a href="tel:+">
+          <button
+            class="px-10 py-3 bg-[#f0eeee] cursor-pointer text-sm shadow-neutral-300 flex items-center gap-2 text-red-500 font-sans font-semibold shadow-[rgba(25,_25,_26,_0.2)_0px_0px_20px] drop-shadow-xl border-3 border-white shadow-inner rounded-full"
+          >
+            <img src="logo/phone-icon.png" alt="" />+91 97111 10975
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <!-- ###################################################### -->
+
+    <!-- ###################################################### -->
+
+    <main>
+      <!-- ###################################################### -->
+
+      <section
+        class="sm:pt-28 pt-5 sm:pb-28 pb-5 font-Product border border-gray-300 shadow-inset-1 BOXSHADOW"
+      >
+        <div
+          class="sm:flex flex-wrap sm:justify-evenly justify-center items-center sm:px-8"
+        >
+          <!-- /////// -->
+          <div class="flex justify-center sm:w-[60%]">
+            <div class="text-black sm:w-[500px] w-auto">
+              <div class="flex gap-0">
+                <div class="pt-10 sm:px-0 px-5">
+                  <h1
+                    class="transform rotate-90 inline-block text-red-500 font-semibold text-lg font-Product"
+                  >
+                    we build
+                  </h1>
+                </div>
+                <div
+                  class="sm:text-5xl text-4xl animated-text pb-5 font-semibold"
+                >
+                  Secure, smart, <br />and easy to <br />
+                  use <span></span>
+                </div>
+              </div>
+              <div class="pb-5 ps-16">
+                <div class="flex pt-4 px-1 gap-2 sm:px-0 px-5">
+                  <img width="6.95%" src="logo/right-arrow.png" alt="" />
+                  <h1>Custom UI & UX</h1>
+                </div>
+                <div class="flex pt-4 px-1 gap-2 sm:px-0 px-5">
+                  <img width="6.95%" src="logo/right-arrow.png" alt="" />
+                  <h1>Scalable backend</h1>
+                </div>
+                <div class="flex pt-4 px-1 gap-2 sm:px-0 px-5">
+                  <img width="6.95%" src="logo/right-arrow.png" alt="" />
+                  <h1>Free Consulting</h1>
+                </div>
+              </div>
+              <div class="pt-2 font-Product font-semibold px-16">
+                <button
+                  class="px-8 py-2 tab-button bg-[#f0eeee] rounded-full flex items-center justify-center relative"
+                  id="showFormButton"
+                >
+                  Tab to Discuss Your Project
+                  <!-- <span
+                  class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-4xl animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"
+                ></span> -->
+                  <!-- <span
+                  class="absolute top-8 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center"
+                >
+                  <span
+                    class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-95"
+                  ></span>
+                  <span
+                    class="relative inline-flex rounded-full h-3 w-3 bg-white"
+                  ></span>
+                </span> -->
+                  <span
+                    class="absolute top-1/2 left-2/2 transform -translate-x-1/2 -translate-y-1/2 text-center inline-block animate-ping rounded-full p-2 bg-teal-400 text-white text-xs"
+                  >
+                    <span
+                      class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-95"
+                    ></span>
+                    <span
+                      class="relative inline-flex rounded-full h-3 w-3 bg-white"
+                    ></span>
+                  </span>
+                </button>
+              </div>
+              <!-- ///////////////////// -->
+              <div class="form-container gap-5" id="formContainer">
+                <button class="close-button" id="closeFormButton">×</button>
+                <br />
+                <div
+                  style="
+                    background-image: url(background/form-back-ground-1.png);
+                    background-repeat: no-repeat;
+
+                    object-fit: contain;
+                  "
+                  class="sm:px-28 sm:p-5 p-2 rounded-t-xl flex flex-col justify-center"
+                >
+                  <div class="sm:px-20 px-2 sm:py-10 flex flex-col font-Futura">
+                    <div
+                      class="font-bold sm:text-4xl text-3xl flex flex-col sm:ps-[145px] px-2"
+                    >
+                      <h1>A Trusted Company by Top Brands</h1>
+                      <h2 class="text-sm pt-2">
+                        Share your information and we will contact you soon.
+                      </h2>
+                    </div>
+                    <div class="flex justify-center">
+                      <form class="pt-5">
+                        <div>
+                          <div class="sm:flex sm:gap-10">
+                            <div class="flex flex-col sm:mb-2 mb-4">
+                              <label
+                                class="font-Futura font-semibold pb-2"
+                                for="namee"
+                                >Name:</label
+                              >
+                              <input
+                                required=""
+                                placeholder="Enter your name*"
+                                type="text"
+                                id="namee"
+                                class="sm:w-96 w-[300px] border-none rounded-2xl shadow-neutral-300 shadow-[rgba(25,_25,_26,_0.2)_0px_0px_20px] drop-shadow-xl border-3 border-white shadow-inner"
+                              />
+                            </div>
+                            <div class="flex flex-col sm:mb-4 mb-2">
+                              <label
+                                class="font-Futura font-semibold pb-2"
+                                for="emaill"
+                                >Email:</label
+                              >
+                              <input
+                                required=""
+                                placeholder="Enter your email*"
+                                type="email"
+                                id="emaill"
+                                class="sm:w-96 w-[300px] border-none rounded-2xl shadow-neutral-300 shadow-[rgba(25,_25,_26,_0.2)_0px_0px_20px] drop-shadow-xl border-3 border-white shadow-inner"
+                              />
+                            </div>
+                          </div>
+                          <div class="sm:flex sm:gap-10">
+                            <div class="flex flex-col sm:mb-4 mb-2">
+                              <label
+                                class="font-Futura font-semibold pb-2"
+                                for="contactnumberr"
+                                >Contact Number:</label
+                              >
+                              <input
+                                required=""
+                                placeholder="Enter your Number*"
+                                type="tel"
+                                id="contactnumberr"
+                                class="sm:w-96 w-[300px] border-none rounded-2xl shadow-neutral-300 shadow-[rgba(25,_25,_26,_0.2)_0px_0px_20px] drop-shadow-xl border-3 border-white shadow-inner"
+                              />
+                            </div>
+                            <div class="flex flex-col sm:mb-4 mb-2">
+                              <label
+                                class="font-Futura font-semibold pb-2"
+                                for="companynamee"
+                                >Company Name :</label
+                              >
+                              <input
+                                required=""
+                                placeholder="Enter your Company Name*"
+                                type="text"
+                                id="companynamee"
+                                class="sm:w-96 w-[300px] border-none rounded-2xl shadow-neutral-300 shadow-[rgba(25,_25,_26,_0.2)_0px_0px_20px] drop-shadow-xl border-3 border-white shadow-inner"
+                              />
+                            </div>
+                          </div>
+                          <div class="sm:flex sm:gap-10">
+                            <div class="flex flex-col sm:mb-4 mb-2">
+                              <label
+                                class="font-Futura font-semibold pb-2"
+                                for="messagee"
+                                >Message:</label
+                              >
+                              <textarea
+                                required=""
+                                placeholder="Enter your message"
+                                id="messagee"
+                                class="sm:w-96 w-[300px] border-none rounded-2xl shadow-neutral-300 shadow-[rgba(25,_25,_26,_0.2)_0px_0px_20px] drop-shadow-xl border-3 border-white shadow-inner"
+                              ></textarea>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="flex justify-center text-center sm:px-64 my-6"
+                        >
+                          <button
+                            class="form-button bg-red-600"
+                            type="button"
+                            onclick="validateFormm()"
+                          >
+                            Submit
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                    <div id="thank-you-messagee" style="display: none">
+                      <p
+                        class="text-green-700 text-2xl font-semibold font-kepler text-center"
+                      >
+                        Thank you for your submission!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <script src="https://smtpjs.com/v3/smtp.js"></script>
+              <script>
+                function validateFormm() {
+                  let namee = document.getElementById("namee").value;
+                  let emaill = document.getElementById("emaill").value;
+                  let contactnumberr =
+                    document.getElementById("contactnumberr").value;
+                  let companynamee =
+                    document.getElementById("companynamee").value;
+                  let messagee = document.getElementById("messagee").value;
+
+                  if (
+                    namee === "" ||
+                    emaill === "" ||
+                    contactnumberr === "" ||
+                    companynamee === "" ||
+                    messagee === ""
+                  ) {
+                    alert("Please fill in all required fields.");
+                  } else {
+                    sendEmaill(); // Corrected function name
+                  }
+                }
+
+                function sendEmaill() {
+                  let namee = document.getElementById("namee").value;
+                  let emaill = document.getElementById("emaill").value;
+                  let contactnumberr =
+                    document.getElementById("contactnumberr").value;
+                  let companynamee =
+                    document.getElementById("companynamee").value;
+                  let messagee = document.getElementById("messagee").value;
+
+                  // Show the "Thank you" message after successful submission
+                  document.getElementById("thank-you-messagee").style.display =
+                    "block";
+                  // document.querySelector("form").style.display = "none";
+                  document.querySelector("form").reset();
+                  let body =
+                    "Name: " +
+                    namee +
+                    "<br/> Email: " +
+                    emaill +
+                    "<br/> Contact Number: " +
+                    contactnumberr +
+                    "<br/> Company Name: " +
+                    companynamee +
+                    "<br/> Message: " +
+                    messagee;
+
+                  Email.send({
+                    Host: "smtp.elasticemail.com",
+                    Username: "ashishkaintura305@gmail.com",
+                    Password: "54CFD585FC8FA7992CE7F3D73A8A2B8A3BCE",
+                    To: "Info@risezonictravel.com",
+                    From: "ashishkaintura305@gmail.com",
+                    Subject: "Leads For Risezonic",
+                    Body: body,
+                  }).then((companyname) => alert(companyname));
+                  console.log(companyname);
+                }
+              </script>
+              <script>
+                document
+                  .getElementById("showFormButton")
+                  .addEventListener("click", function () {
+                    var formContainer =
+                      document.getElementById("formContainer");
+
+                    if (formContainer.style.opacity === "1") {
+                      formContainer.style.opacity = "0";
+                      setTimeout(function () {
+                        formContainer.style.display = "none";
+                      }, 300);
+                    } else {
+                      formContainer.style.display = "block";
+                      setTimeout(function () {
+                        formContainer.style.opacity = "1";
+                      }, 0);
+                    }
+                  });
+
+                // Handle the close button click
+                document
+                  .getElementById("closeFormButton")
+                  .addEventListener("click", function () {
+                    var formContainer =
+                      document.getElementById("formContainer");
+                    formContainer.style.opacity = "0";
+                    setTimeout(function () {
+                      formContainer.style.display = "none";
+                    }, 300);
+                  });
+              </script>
+            </div>
+            <div class="sm:block hidden ps-8">
+              <img src="logo/add-to-cart.png" alt="" />
+            </div>
+          </div>
+          <!-- /////// -->
+          <div class="flex justify-center sm:w-[530px] sm:pt-0 pt-5">
+            <img
+              class="sm:w-[100%] w-[50%]"
+              src="images/banner-1.webp"
+              alt=""
+            />
+          </div>
+          <div></div>
+        </div>
+      </section>
+
+      <!-- ###################################################### -->
+
+      <!-- ###################################################### -->
+
+      <section>
+        <div class="bg-gray-800 p-5">
+          <div class="p-8 bg-white rounded-t-xl">
+            <div class="px-8">
+              <div class="text-4xl font-Futura font-bold">
+                <h1>Transforming ideas</h1>
+                <h1>into Digital Reality</h1>
+              </div>
+              <div class="pt-8 font-Futura text-[1rem] text-gray-700">
+                <p>
+                  Risezonic was established in 2008 with a commitment to provide
+                  top-notch and innovative IT solutions
+                </p>
+                <p>which can help businesses to achieve their goals.</p>
+              </div>
+              <div class="pt-8 font-Futura text-[1rem] text-gray-700">
+                <p>
+                  We have served more than 600 clients globally and delivered
+                  1600+ projects under different IT domains, like Website
+                </p>
+                <p>
+                  Design and Development, Mobile Application, Web Based
+                  Solutions, RPA (Robotics Process Automation), LMS (Learning
+                </p>
+                <p>
+                  Management Solutions), onshore and offshore, with a goal to
+                  become a trusted partner for clients and helping them to
+                </p>
+                <p>succeed online.</p>
+              </div>
+            </div>
+            <!-- ******************* -->
+            <div
+              class="px-8 pt-5 font-Futura sm:flex flex-wrap sm:justify-between justify-center items-center"
+            >
+              <div class="ps-20 flex justify-center">
+                <div
+                  class="sm:animate-bounce sm:w-48 sm:h-48 w-[150px] h-[150px] bg-red-600 rounded-full text-center items-center flex justify-center"
+                >
+                  <h1 class="text-white text-4xl font-semibold">#Clients</h1>
+                </div>
+              </div>
+              <div
+                class="grid sm:grid-rows-3 grid-row-4 sm:grid-cols-3 grid-cols-2 gap-x-28 gap-y-2 px-2 py-5"
+              >
+                <!-- Your grid items go here -->
+                <div>
+                  <img src="logo/website-designing-trump-towers.png" alt="" />
+                </div>
+                <div>
+                  <img src="logo/website-designing-hcl.png" alt="" />
+                </div>
+                <div>
+                  <img src="logo/website-designing-audi.png" alt="" />
+                </div>
+                <div>
+                  <img src="logo/website-designing-mdh.png" alt="" />
+                </div>
+                <div>
+                  <img src="logo/website-designing-madame.png" alt="" />
+                </div>
+                <div>
+                  <img src="logo/website-designing-kfc.png" alt="" />
+                </div>
+                <div>
+                  <img src="logo/website-designing-EazyDiner.png" alt="" />
+                </div>
+                <div>
+                  <img src="logo/website-designing-ubon.png" alt="" />
+                </div>
+                <div>
+                  <img src="logo/porsche-logo-11.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ###################################################### -->
+      <!-- web view  -->
+      <!-- what phone view -->
+
+      <section class="bg-gray-800">
+        <div
+          class="w-full sm:h-48 h-28 bg-blue-500 relative flex flex-col justify-center"
+          style="background-image: url('logo/service-title-bg.webp')"
+        >
+          <div class="flex justify-center">
+            <h1 class="text-4xl font-Product font-bold text-white">
+              What We Do
+            </h1>
+          </div>
+          <div
+            class="bg-[whitesmoke] absolute sm:left-[8%] left-[4%] sm:top-[9rem] top-[5rem] transform sm:translate-x-[15%] translate-x-[-2%] flex justify-evenly gap-2 rounded-xl"
+          >
+            <div
+              class="sm:text-2xl text-sm py-5 font-bold font-Futura hover:text-white hover:bg-gray-800 cursor-pointer px-3 tab active"
+              data-tab="tab1"
+            >
+              <h1 class="tab1">Corporate Website Designing</h1>
+            </div>
+            <div
+              class="sm:text-2xl text-sm py-5 font-bold font-Futura hover:text-white hover:bg-gray-800 cursor-pointer px-3 tab"
+              data-tab="tab2"
+            >
+              <h1 class="tab2">E-commerce Website</h1>
+            </div>
+            <div
+              class="sm:text-2xl text-sm py-5 font-bold font-Futura hover:text-white hover:bg-gray-800 cursor-pointer px-3 tab"
+              data-tab="tab3"
+            >
+              <h1 class="tab3">Idea Based Website</h1>
+            </div>
+          </div>
+        </div>
+
+        <div
+          style="background-image: url(background/Component\ 1.png)"
+          class="py-10 px-5"
+        >
+          <div class="tab-content pt-20 px-10">
+            <div class="flex justify-evenly gap-10 tab1-content font-Futura">
+              <div class="pt-5 sm:w-[50%]">
+                <h1
+                  class="text-white text-5xl font-Product font-bold tracking-wider"
+                >
+                  Corporate Website <br />Designing
+                </h1>
+                <p class="pt-5 text-white">
+                  If you are planning to design a website for your company, we
+                  br can help you out with best of the design and quality. Our
+                  expert designers will work closely with you to understand your
+                  business needs and goals anddesign website that accurately
+                  reflects your brand and engages your target audience. Our
+                  corporate website designs are sleek, modern, and fully
+                  responsive, ensuring that your website looks great on all
+                  devices. We also provide ongoing support and maintenance to
+                  ensure that your website continues to perform at its best.
+                  With <strong>RIsezonicWeb Technology</strong> as your website
+                  design partner, you can trust that your online presence is in
+                  good hands. Contact us today to learn more about our services.
+                </p>
+              </div>
+
+              <div class="sm:w-[50%] flex justify-center sm:block hidden">
+                <img
+                  style="
+                    border-radius: 10px;
+                    border-top-right-radius: 90px;
+                    border-bottom-left-radius: 90px;
+                  "
+                  src="images/service-img-1.webp"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="tab2-content hidden">
+              <div
+                class="sm:flex justify-evenly gap-10 tab1-content font-Futura"
+              >
+                <div class="pt-5 sm:w-[50%]">
+                  <h1
+                    class="text-white text-5xl font-Product font-bold tracking-wider"
+                  >
+                    E-commerce<br />Website
+                  </h1>
+                  <p class="pt-5 text-white">
+                    In E-Commerce business, website is the back-bone of the
+                    business and if your website is well designed and provides
+                    great user experience than only you can achieve success in
+                    e-commerce space. Our e-commerce website design service can
+                    help you achieve your business goals. Our team of
+                    experienced designers and developers will create a visually
+                    appealing, user-friendly, and secure e-Commerce website that
+                    showcases your products and enhances your brand image. We
+                    also integrate a range of payment gateways and shipping
+                    options to ensure a smooth customer experience. Our
+                    e-commerce websites are optimized for search engines,
+                    ensuring that your products are easily discoverable by your
+                    target audience. Contact us today to learn more about our
+                    services
+                  </p>
+                </div>
+
+                <div class="sm:w-[50%] flex justify-center sm:block hidden">
+                  <img
+                    style="
+                      border-radius: 10px;
+                      border-top-right-radius: 90px;
+                      border-bottom-left-radius: 90px;
+                    "
+                    src="images/e-commerce-website.webp"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="tab3-content hidden">
+              <div
+                class="sm:flex justify-evenly gap-10 tab1-content font-Futura"
+              >
+                <div class="pt-5 sm:w-[50%]">
+                  <h1
+                    class="text-white text-5xl font-Product font-bold tracking-wider"
+                  >
+                    Idea Based<br />Website
+                  </h1>
+                  <p class="pt-5 text-white">
+                    At Radiant Web Technology we are specialize in idea-based
+                    website designing that help you stand out from the
+                    competition. Our team of creative designers and developers
+                    collaborate with you to understand your unique vision and
+                    business needs and create a customized website that reflects
+                    your brand identity and communicates your message
+                    effectively. We prioritize user experience, ensuring that
+                    your website is easy to navigate and provides a seamless
+                    experience for your audience. With Radiant Web Technology as
+                    your website design partner, you can expect a website that
+                    is not only visually stunning but also achieves your
+                    business objectives. Contact us today to learn more about
+                    our services.
+                  </p>
+                </div>
+
+                <div class="sm:w-[50%] flex justify-center sm:block hidden">
+                  <img
+                    style="
+                      border-radius: 10px;
+                      border-top-right-radius: 90px;
+                      border-bottom-left-radius: 90px;
+                    "
+                    src="images/idea-based-website.webp"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center pt-8 mt-5">
+            <a href="https://wa.me/97111 10975">
+              <button
+                id="showFormButton"
+                class="px-10 py-3 bg-red-600 w-64 text-lg text-white hover:bg-red-700"
+              >
+                Contact us
+              </button></a
+            >
+          </div>
+        </div>
+
+        <script>
+          // JavaScript to handle tab switching
+          const tabs = document.querySelectorAll(".tab");
+          const tabContents = document.querySelectorAll(".tab-content > div");
+
+          tabs.forEach((tab) => {
+            tab.addEventListener("click", () => {
+              // Hide all tab contents
+              tabContents.forEach((content) => {
+                content.classList.add("hidden");
+              });
+
+              // Remove 'active' class from all tabs
+              tabs.forEach((t) => {
+                t.classList.remove("active");
+              });
+
+              // Show the clicked tab content
+              const tabId = tab.getAttribute("data-tab");
+              const tabContent = document.querySelector(`.${tabId}-content`);
+              tabContent.classList.remove("hidden");
+
+              // Add 'active' class to the clicked tab
+              tab.classList.add("active");
+            });
+          });
+
+          // Simulate a click on the first tab to show its content by default
+          tabs[0].click();
+        </script>
+
+        <!-- <script>
+          const tabs = document.querySelectorAll(".tab");
+          const tabContents = document.querySelectorAll(".tab-content div");
+          let currentTab = 1; // Initialize with the first tab (tab1)
+          let interval; // Store the interval for auto-play
+
+          function showTab(tabNumber) {
+            // Remove the "active" class from all tabs and content divs
+            tabs.forEach((t) => {
+              t.classList.remove("active");
+            });
+            tabContents.forEach((content) => {
+              content.classList.add("hidden");
+            });
+
+            // Add the "active" class to the specified tab and corresponding content div
+            const tabId = `tab${tabNumber}`;
+            const tab = document.querySelector(`[data-tab="${tabId}"]`);
+            tab.classList.add("active");
+            const tabContent = document.querySelector(`.${tabId}-content`);
+            tabContent.classList.remove("hidden");
+          }
+
+          function autoplayTabs() {
+            showTab(currentTab);
+            currentTab = (currentTab % 3) + 1; // Cycle through tabs 1, 2, 3
+          }
+
+          // Auto-play the tabs every 3 seconds (adjust the interval as needed)
+          interval = setInterval(autoplayTabs, 3000);
+
+          // Add click event listeners to tabs for manual control
+          tabs.forEach((tab) => {
+            tab.addEventListener("click", () => {
+              clearInterval(interval); // Stop auto-play
+              currentTab = Number(
+                tab.getAttribute("data-tab").replace("tab", "")
+              );
+              showTab(currentTab);
+              // Restart auto-play after 3 seconds (adjust the interval as needed)
+              setTimeout(() => {
+                interval = setInterval(autoplayTabs, 3000);
+              }, 3000);
+            });
+          });
+        </script> -->
+        <!-- <script>
+          const tabs = document.querySelectorAll(".tab");
+          const tabContents = document.querySelectorAll(".tab-content div");
+
+          tabs.forEach((tab) => {
+            tab.addEventListener("click", () => {
+              // Remove the "active" class from all tabs and content divs
+              tabs.forEach((t) => {
+                t.classList.remove("active");
+              });
+              tabContents.forEach((content) => {
+                content.classList.add("hidden");
+              });
+
+              // Add the "active" class to the clicked tab and corresponding content div
+              tab.classList.add("active");
+              const tabId = tab.getAttribute("data-tab");
+              const tabContent = document.querySelector(`.${tabId}-content`);
+              tabContent.classList.remove("hidden");
+            });
+          });
+        </script> -->
+      </section>
+
+      <!-- ###################################################### -->
+
+      <!-- ###################################################### -->
+
+      <section>
+        <div class="py-12">
+          <div class="flex justify-center text-3xl font-bold font-Product">
+            <h1>Our Work</h1>
+          </div>
+          <div>
+            <div class="swiper mySwiper pt-16">
+              <div class="swiper-wrapper h-[320px] w-[250px]">
+                <div class="swiper-slide">
+                  <div
+                    class="flex flex-col justify-center w-[580px] h-[280px] bg-gray-800 rounded-xl overflow-hidden background-center object-fit"
+                  >
+                    <img src="ourwork/billioncheers-wrok-radiant.webp" alt="" />
+                    <!-- <div class="p-[3rem] bg-[whitesmoke]"></div> -->
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div
+                    class="flex flex-col justify-center w-[580px] h-[280px] bg-gray-800 rounded-xl overflow-hidden background-center object-fit"
+                  >
+                    <img src="ourwork/fitmirchi-work-radiant.webp" alt="" />
+                    <!-- <div class="p-[3rem] bg-[whitesmoke]"></div> -->
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div
+                    class="flex flex-col justify-center w-[580px] h-[280px] bg-gray-800 rounded-xl overflow-hidden background-center object-fit"
+                  >
+                    <img src="ourwork/holiday-wagon-work-radiant.webp" alt="" />
+                    <!-- <div class="p-[3rem] bg-[whitesmoke]"></div> -->
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div
+                    class="flex flex-col justify-center w-[580px] h-[280px] bg-gray-800 rounded-xl overflow-hidden background-center object-fit"
+                  >
+                    <img src="ourwork/inventstore.webp" alt="" />
+                    <!-- <div class="p-[3rem] bg-[whitesmoke]"></div> -->
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div
+                    class="flex flex-col justify-center w-[580px] h-[280px] bg-gray-800 rounded-xl overflow-hidden background-center object-fit"
+                  >
+                    <img src="ourwork/thehomestudio-client.webp" alt="" />
+                    <!-- <div class="p-[3rem] bg-[whitesmoke]"></div> -->
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div
+                    class="flex flex-col justify-center w-[580px] h-[280px] bg-gray-800 rounded-xl overflow-hidden background-center object-fit"
+                  >
+                    <img src="ourwork//romania-browser.webp" alt="" />
+                    <!-- <div class="p-[3rem] bg-[whitesmoke]"></div> -->
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-scrollbar"></div>
+              <div class="swiper-pagination pt-8"></div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+            <!-- Initialize Swiper -->
+            <script>
+              var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 1,
+                centeredSlides: false,
+                slidesPerGroupSkip: 1,
+                grabCursor: true,
+                keyboard: {
+                  enabled: true,
+                },
+                breakpoints: {
+                  769: {
+                    slidesPerView: 2,
+                    slidesPerGroup: 2,
+                  },
+                },
+                scrollbar: {
+                  el: ".swiper-scrollbar",
+                },
+                navigation: {
+                  nextEl: ".swiper-button-next",
+                  prevEl: ".swiper-button-prev",
+                },
+                pagination: {
+                  el: ".swiper-pagination",
+                  clickable: true,
+                },
+              });
+            </script>
+          </div>
+        </div>
+      </section>
+
+      <!-- ###################################################### -->
+
+      <!-- ###################################################### -->
+      <!-- form  -->
+      <section>
+        <iframe
+          class="w-full h-[660px]"
+          src="forms.html"
+          frameborder="0"
+        ></iframe>
+      </section>
+      <!-- ###################################################### -->
+
+      <!-- ###################################################### -->
+
+      <section class="bg-gray-800 py-10 px-5">
+        <div class="text-center pt-10">
+          <h1 class="font-Futura font-semibold text-2xl text-white">
+            Proudly working with Different Sectors
+          </h1>
+        </div>
+        <div class="flex flex-col justify-center py-8">
+          <div class="flex justify-center gap-10 mt-2">
+            <div
+              class="bg-white w-48 h-48 rounded-lg flex flex-col justify-center text-center"
+            >
+              <div class="flex justify-center">
+                <img src="images/Workingwith/business units.png" alt="" />
+              </div>
+            </div>
+            <div
+              class="bg-white w-48 h-48 rounded-lg flex flex-col justify-center text-center"
+            >
+              <div class="flex justify-center">
+                <img src="images/Workingwith/hospitality.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center gap-10 mt-2">
+            <div
+              class="bg-white w-48 h-48 rounded-lg flex flex-col justify-center text-center"
+            >
+              <div class="flex justify-center">
+                <img src="images/Workingwith/Hotels & Restaurant.png" alt="" />
+              </div>
+            </div>
+            <div
+              class="bg-white w-48 h-48 rounded-lg flex flex-col justify-center text-center"
+            >
+              <div class="flex justify-center">
+                <img src="images/Workingwith/jewellery.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center gap-10 mt-2">
+            <div
+              class="bg-white w-48 h-48 rounded-lg flex flex-col justify-center text-center"
+            >
+              <div class="flex justify-center">
+                <img src="images/Workingwith/NGO.png" alt="" />
+              </div>
+            </div>
+            <div
+              class="bg-white w-48 h-48 rounded-lg flex flex-col justify-center text-center"
+            >
+              <div class="flex justify-center">
+                <img src="images/Workingwith/salons.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center gap-10 mt-2">
+            <div
+              class="bg-white w-48 h-48 rounded-lg flex flex-col justify-center text-center"
+            >
+              <div class="flex justify-center">
+                <img src="images/Workingwith/service industry.png" alt="" />
+              </div>
+            </div>
+            <div
+              class="bg-white w-48 h-48 rounded-lg flex flex-col justify-center text-center"
+            >
+              <div class="flex justify-center">
+                <img src="images/Workingwith/textile.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ###################################################### -->
+
+      <!-- ###################################################### -->
+
+      <!-- <section class="bg-gray-800 p-5">
+        <div class="pt-20 pb-12 flex justify-center font-Product">
+          <h1 class="text-3xl font-bold text-white">What Our Clients Say</h1>
+        </div>
+        <div class="flex justify-evenly">
+         
+          <div
+            class="flex justify-center w-[520px] h-[300px] border-2 border-white rounded-lg px-5"
+          >
+          
+            <img src="images/testimonials-image1.webp" alt="" />
+           
+
+            <div class="flex flex-col">
+           
+              <div class="flex pt-5 gap-2 px-2">
+                <div><img src="logo/quote-icon.png" alt="" /></div>
+                <h1 class="font-Product text-white">
+                  Shivam Sharma - Audi <br />
+                  Amazing Customer Service
+                </h1>
+              </div>
+              <div class="ps-5 pt-8">
+                <p class="text-white text-sm">
+                  It’s been an association of more than 8 years with
+                  RIsezonicWeb Technology as our Web and Tech partner. They have
+                  Built our website, E-Commerce platforms and some other digital
+                  assets. They provide seamless solutions and great customer
+                  experience.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex justify-center w-[520px] h-[300px] border-2 border-white rounded-lg px-5"
+          >
+
+         
+            <img src="images/testimonials-image2.webp" alt="" />
+            
+            
+            <div class="flex flex-col">
+             
+              
+              <div class="flex pt-5 gap-2 px-2">
+                <div><img src="logo/quote-icon.png" alt="" /></div>
+                <h1 class="font-Product text-white">
+                  Aurthur Morgan - CGI Europe<br />
+                  Happy with Services
+                </h1>
+              </div>
+              <div class="ps-5 pt-8">
+                <p class="text-white text-sm">
+                  Risezonic is our web and onshore partner and they are one of
+                  the best in the industry. They have provided exceptional
+                  services for our different vertices; they are good at
+                  designing, development, delivery timelines, client handling
+                  and competitive prices.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- ###################################################### -->
+
+      <!-- ###################################################### -->
+
+      <section class="pb-24">
+        <div class="flex justify-center text-center font-Product pt-24 pb-10">
+          <h1 class="text-4xl font-bold">Frequently Asked Questions</h1>
+        </div>
+        <div
+          class="flex flex-col flex-wrap justify-center text-center sm:px-28 px-5"
+        >
+          <details
+            class="bg-[whitesmoke] p-5 border-2 border-gray-300 shadow-inner py-3 mt-3"
+          >
+            <summary class="text-2xl font-semibold font-Futura">
+              How long does it take to design a website?
+            </summary>
+            <p class="pt-8 font-Futura text-sm text-left">
+              The time it takes to design a website can vary depending on a
+              number of factors, such as the size and complexity of the website,
+              the level of customization required, and the availability of
+              content and other resources. Typically, a standard website with
+              5-15 pages takes around 30 days, while a more complex website with
+              custom features and extensive content may take months to Complete
+              depending on the scope of work. At the start of the website design
+              process, we do requirement gathering and work share a timeline and
+              milestones with the client to for the project. This will help to
+              ensure that both of us to have a clear understanding of the scope
+              of the project and the expected timeline for completion. During
+              the design process, all the teams work with each other, such as UI
+              & UX team, HTML developer, web developers and content creators, to
+              ensure that the website is functional and meets the client's
+              objectives.
+            </p>
+          </details>
+          <details
+            class="bg-[whitesmoke] p-5 border-2 border-gray-300 shadow-inner py-3 mt-3"
+          >
+            <summary class="text-2xl font-semibold font-Futura">
+              Is it custom designs or ready-made themes?
+            </summary>
+            <p class="pt-8 font-Futura text-sm text-left">
+              At RIsezonicWeb Technology we do not use ready-made themes. Every
+              business has different requirement and same should reflect on
+              their websites. We work on custom website designs and create
+              designs from the scratch according to Industry, target market,
+              price point, target audience et
+            </p>
+          </details>
+          <details
+            class="bg-[whitesmoke] p-5 border-2 border-gray-300 shadow-inner py-3 mt-3"
+          >
+            <summary class="text-2xl font-semibold font-Futura">
+              Do you help in Hosting,Payment gateway etc.
+            </summary>
+            <p class="pt-8 font-Futura text-sm text-left">
+              Yes, we provide complete end to end solution, if you do not have
+              domain or hosting, we can do it for you also we guide you and
+              assist you for all other services like payment gateway, sms
+              gateway, email services etc.
+            </p>
+          </details>
+          <details
+            class="bg-[whitesmoke] p-5 border-2 border-gray-300 shadow-inner py-3 mt-3"
+          >
+            <summary class="text-2xl font-semibold font-Futura">
+              Do you provide support after website delivery.
+            </summary>
+            <p class="pt-8 font-Futura text-sm text-left">
+              Yes, we provide support after the delivery of the website. Support
+              depends on the nature and scope of project. Whatever we develop we
+              provide free support to you incase of any bugs.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <!-- ###################################################### -->
+    </main>
+    <!-- ###################################################### -->
+
+    <!-- ###################################################### -->
+    <a class="whats-app" href="https://wa.me/97111 10975" target="_blank">
+      <i class="fab fa-whatsapp icon animate-bounce my-float"></i>
+    </a>
+
+    <!-- ###################################################### -->
+    <footer class="bg-[#282828] sm:px-0 px-5">
+      <div
+        class="sm:flex flex-wrap sm:justify-evenly justify-center sm:text-left text-center pt-20 pb-12 items-center"
+      >
+        <div>
+          <div class="flex flex-col">
+            <div class="flex sm:justify-start justify-center">
+              <img
+                class="sm:w-[15%] w-[25%]"
+                src="logo/cropped-Risezonic-logo-1024x186 - Copy.png"
+                alt=""
+              />
+            </div>
+            <div class="pt-2">
+              <p class="text-white font-semibold font-Product">
+                #1 website designing company in Delhi NCR
+              </p>
+            </div>
+            <div class="flex flex-col pt-10">
+              <h1 class="text-[15px] text-white font-semibold font-Product">
+                Risezonic Web Technology Pvt.ltd
+              </h1>
+              <p class="text-[12px] text-white font-semibold font-Product">
+                Level 18, DLF Cyber City, Building No. 5, Tower A,
+              </p>
+              <p class="text-[12px] text-white font-semibold font-Product">
+                Phase III, Gurgaon 122002, India.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col justify-center text-center">
+          <h1 class="text-white font-Product font-semibold">Follow us on</h1>
+          <div class="flex gap-5 pt-5 justify-evenly">
+            <a href="https://www.facebook.com/risezonicofficial"
+              ><i class="fa-brands fa-facebook fa-xl" style="color: #ffffff"></i
+            ></a>
+            <a href="https://www.linkedin.com/company/risezonic"
+              ><i
+                class="fa-brands fa-instagram fa-xl"
+                style="color: #ffffff"
+              ></i
+            ></a>
+            <a href="https://www.instagram.com/risezonicofficial"
+              ><i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <footer class="bg-[#282828] p-1">
+      <h1
+        class="sm:ps-28 sm:px-0 px-5 font-Product font-semibold text-gray-400 text-[12px]"
+      >
+        © Copyright 2008 - 2023 Risezonic Web Technology Pvt. Ltd. All Rights
+        Reserved.
+      </h1>
+    </footer>
+    <!-- ###################################################### -->
+
+    <!-- sticky footer ######################################## -->
+    <footer class="fixed-footer sm:hidden">
+      <div class="flex">
+        <button
+          class="bg-green-500 w-[50%] py-5 text-lg font-semibold font-Futura text-white"
+          id="openPopupButton"
+        >
+          Make an Enquiry
+        </button>
+        <div class="popup" id="popup">
+          <div class="popup-content">
+            <!-- Popup content goes here -->
+            <div
+              style="
+                background-image: url(background/form-back-ground-1.png);
+                background-repeat: no-repeat;
+
+                object-fit: contain;
+              "
+              class="sm:px-28 sm:p-5 p-2 rounded-t-xl flex flex-col justify-center"
+            >
+              <div class="sm:px-20 px-2 sm:py-10 flex flex-col font-Futura">
+                <div
+                  class="font-bold sm:text-4xl text-3xl flex flex-col sm:ps-[145px] px-0"
+                >
+                  <h1>A Trusted Company by Top Brands</h1>
+                  <h2 class="text-sm pt-2">
+                    Share your information and we will contact you soon.
+                  </h2>
+                </div>
+                <div class="flex justify-center">
+                  <form class="pt-5">
+                    <div>
+                      <div class="sm:flex sm:gap-10">
+                        <div class="flex flex-col sm:mb-2 mb-4">
+                          <label
+                            class="font-Futura font-semibold pb-2"
+                            for="name"
+                            >Name:</label
+                          >
+                          <input
+                            required=""
+                            placeholder="Enter your name*"
+                            type="text"
+                            id="name"
+                            class="sm:w-96 w-[300px] border-none rounded-2xl shadow-neutral-300 shadow-[rgba(25,_25,_26,_0.2)_0px_0px_20px] drop-shadow-xl border-3 border-white shadow-inner"
+                          />
+                        </div>
+                        <div class="flex flex-col sm:mb-4 mb-2">
+                          <label
+                            class="font-Futura font-semibold pb-2"
+                            for="email"
+                            >Email:</label
+                          >
+                          <input
+                            required=""
+                            placeholder="Enter your email*"
+                            type="email"
+                            id="email"
+                            class="sm:w-96 w-[300px] border-none rounded-2xl shadow-neutral-300 shadow-[rgba(25,_25,_26,_0.2)_0px_0px_20px] drop-shadow-xl border-3 border-white shadow-inner"
+                          />
+                        </div>
+                      </div>
+                      <div class="sm:flex sm:gap-10">
+                        <div class="flex flex-col sm:mb-4 mb-2">
+                          <label
+                            class="font-Futura font-semibold pb-2"
+                            for="contactnumber"
+                            >Contact Number:</label
+                          >
+                          <input
+                            required=""
+                            placeholder="Enter your Number*"
+                            type="tel"
+                            id="contactnumber"
+                            class="sm:w-96 w-[300px] border-none rounded-2xl shadow-neutral-300 shadow-[rgba(25,_25,_26,_0.2)_0px_0px_20px] drop-shadow-xl border-3 border-white shadow-inner"
+                          />
+                        </div>
+                        <div class="flex flex-col sm:mb-4 mb-2">
+                          <label
+                            class="font-Futura font-semibold pb-2"
+                            for="companyname"
+                            >Company Name :</label
+                          >
+                          <input
+                            required=""
+                            placeholder="Enter your Company Name*"
+                            type="text"
+                            id="companyname"
+                            class="sm:w-96 w-[300px] border-none rounded-2xl shadow-neutral-300 shadow-[rgba(25,_25,_26,_0.2)_0px_0px_20px] drop-shadow-xl border-3 border-white shadow-inner"
+                          />
+                        </div>
+                      </div>
+                      <div class="sm:flex sm:gap-10">
+                        <div class="flex flex-col sm:mb-4 mb-2">
+                          <label
+                            class="font-Futura font-semibold pb-2"
+                            for="message"
+                            >Message:</label
+                          >
+                          <textarea
+                            required=""
+                            placeholder="Enter your message"
+                            id="message"
+                            class="sm:w-96 w-[300px] border-none rounded-2xl shadow-neutral-300 shadow-[rgba(25,_25,_26,_0.2)_0px_0px_20px] drop-shadow-xl border-3 border-white shadow-inner"
+                          ></textarea>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex justify-center text-center sm:px-64 my-6">
+                      <button
+                        class="form-button bg-red-600"
+                        type="button"
+                        onclick="validateForm()"
+                      >
+                        Submit
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div id="thank-you-message" style="display: none">
+                <p
+                  class="text-green-700 text-2xl font-semibold font-kepler text-center"
+                >
+                  Thank you for your submission!
+                </p>
+              </div>
+            </div>
+            <button class="close-button" id="closePopupButton">X</button>
+          </div>
+        </div>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script>
+          function validateForm() {
+            let name = document.getElementById("name").value;
+            let email = document.getElementById("email").value;
+            let contactnumber = document.getElementById("contactnumber").value;
+            let companyname = document.getElementById("companyname").value;
+            let message = document.getElementById("message").value;
+
+            if (
+              name === "" ||
+              email === "" ||
+              contactnumber === "" ||
+              companyname === "" ||
+              message === ""
+            ) {
+              alert("Please fill in all required fields.");
+            } else {
+              sendEmail(); // Corrected function name
+            }
+          }
+
+          function sendEmail() {
+            let name = document.getElementById("name").value;
+            let email = document.getElementById("email").value;
+            let contactnumber = document.getElementById("contactnumber").value;
+            let companyname = document.getElementById("companyname").value;
+            let message = document.getElementById("message").value;
+
+            // Show the "Thank you" message after successful submission
+            document.getElementById("thank-you-message").style.display =
+              "block";
+            //   document.querySelector("form").style.display = "none";
+            document.querySelector("form").reset();
+            let body =
+              "Name: " +
+              name +
+              "<br/> Email: " +
+              email +
+              "<br/> Contact Number: " +
+              contactnumber +
+              "<br/> Company Name: " +
+              companyname +
+              "<br/> Message: " +
+              message;
+
+            Email.send({
+              Host: "smtp.elasticemail.com",
+              Username: "ashishkaintura305@gmail.com",
+              Password: "54CFD585FC8FA7992CE7F3D73A8A2B8A3BCE",
+              To: "Info@risezonictravel.com",
+              From: "ashishkaintura305@gmail.com",
+              Subject: "Leads For Risezonic",
+              Body: body,
+            }).then((companyname) => alert(companyname));
+            console.log(companyname);
+          }
+        </script>
+        <script>
+          document
+            .getElementById("openPopupButton")
+            .addEventListener("click", function () {
+              var popup = document.getElementById("popup");
+              popup.style.display = "block";
+            });
+
+          document
+            .getElementById("closePopupButton")
+            .addEventListener("click", function () {
+              var popup = document.getElementById("popup");
+              popup.style.display = "none";
+            });
+        </script>
+        <button
+          class="bg-red-500 w-[50%] py-5 text-lg font-semibold font-Futura text-white"
+        >
+          <a href="tel:+97111 10975"> Call Now</a>
+        </button>
+      </div>
+    </footer>
+  </body>
+</html>

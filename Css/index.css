@@ -1,0 +1,110 @@
+.tab-button {
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  box-shadow: 0 15px 25px -4px rgba(0, 0, 0, 0.5),
+    inset 0 -3px 4px -1px rgba(0, 0, 0, 0.2),
+    0 -10px 15px -1px rgba(255, 255, 255, 0.6),
+    inset 0 3px 4px -1px rgba(255, 255, 255, 0.2),
+    inset 0 0 5px 1px rgba(211, 207, 207, 0.8),
+    inset 0 20px 30px 0 rgba(255, 255, 255, 0.2);
+}
+.BOXSHADOW {
+  box-shadow: inset 0px 1px 11px -10px #ccc, inset 0px -50px 60px -1px #ccc;
+}
+.active {
+  background-color: red;
+  color: white;
+}
+/* whatsapp .icon  start */
+.whats-app {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 150px;
+  right: 15px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+/* whatsapp end */
+
+/* button on click  */
+/* Button styling */
+.form-container {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0; /* Initially, the form is invisible */
+}
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+/* Your existing styles go here */
+
+.fixed-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: #ffffff; /* Customize the background color if needed */
+  border-top: 1px solid #ccc; /* Add a border if needed */
+  padding: 10px 0; /* Add padding to the footer content */
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+}
+
+.popup-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  /* text-align: center; */
+}
+
+.close-button {
+  margin-top: -6px;
+  /* background: #ff0000; */
+  color: #910303;
+  right: -0;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Add your button styles here */

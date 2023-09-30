@@ -1,0 +1,118 @@
+<div
+              class="sm:flex flex-wrap sm:justify-evenly justify-center gap-10 tab1-content font-Futura"
+            >
+              <div class="pt-5 sm:w-[50%]">
+                <h1
+                  class="text-white text-5xl font-Product font-bold tracking-wider"
+                >
+                  Corporate Website <br />Designing
+                </h1>
+                <p class="pt-5 text-white">
+                  If you are planning to design a website for your company, we
+                  br can help you out with best of the design and quality. Our
+                  expert designers will work closely with you to understand your
+                  business needs and goals anddesign website that accurately
+                  reflects your brand and engages your target audience. Our
+                  corporate website designs are sleek, modern, and fully
+                  responsive, ensuring that your website looks great on all
+                  devices. We also provide ongoing support and maintenance to
+                  ensure that your website continues to perform at its best.
+                  With <strong>RIsezonicWeb Technology</strong> as your website
+                  design partner, you can trust that your online presence is in
+                  good hands. Contact us today to learn more about our services.
+                </p>
+              </div>
+
+              <div class="sm:w-[50%] flex justify-center sm:pt-0 pt-5">
+                <img
+                  style="
+                    border-radius: 10px;
+                    border-top-right-radius: 90px;
+                    border-bottom-left-radius: 90px;
+                  "
+                  src="images/service-img-1.webp"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="tab2-content hidden">
+              <!-- <div
+                class="sm:flex sm:justify-evenly justify-center gap-10 tab1-content font-Futura"
+              >
+                <div class="pt-5 sm:w-[50%]">
+                  <h1
+                    class="text-white text-5xl font-Product font-bold tracking-wider"
+                  >
+                    E-commerce<br />Website
+                  </h1>
+                  <p class="pt-5 text-white">
+                    In E-Commerce business, website is the back-bone of the
+                    business and if your website is well designed and provides
+                    great user experience than only you can achieve success in
+                    e-commerce space. Our e-commerce website design service can
+                    help you achieve your business goals. Our team of
+                    experienced designers and developers will create a visually
+                    appealing, user-friendly, and secure e-Commerce website that
+                    showcases your products and enhances your brand image. We
+                    also integrate a range of payment gateways and shipping
+                    options to ensure a smooth customer experience. Our
+                    e-commerce websites are optimized for search engines,
+                    ensuring that your products are easily discoverable by your
+                    target audience. Contact us today to learn more about our
+                    services
+                  </p>
+                </div>
+
+                <div class="sm:w-[50%] flex justify-center sm:pt-0 pt-5">
+                  <img
+                    style="
+                      border-radius: 10px;
+                      border-top-right-radius: 90px;
+                      border-bottom-left-radius: 90px;
+                    "
+                    src="images/e-commerce-website.webp"
+                    alt=""
+                  />
+                </div>
+              </div> -->
+            </div>
+            <div class="tab3-content hidden">
+              <!-- <div
+                class="sm:flex sm:justify-evenly justify-center gap-10 tab1-content font-Futura"
+              >
+                <div class="pt-5 sm:w-[50%]">
+                  <h1
+                    class="text-white text-5xl font-Product font-bold tracking-wider"
+                  >
+                    Idea Based<br />Website
+                  </h1>
+                  <p class="pt-5 text-white">
+                    At Radiant Web Technology we are specialize in idea-based
+                    website designing that help you stand out from the
+                    competition. Our team of creative designers and developers
+                    collaborate with you to understand your unique vision and
+                    business needs and create a customized website that reflects
+                    your brand identity and communicates your message
+                    effectively. We prioritize user experience, ensuring that
+                    your website is easy to navigate and provides a seamless
+                    experience for your audience. With Radiant Web Technology as
+                    your website design partner, you can expect a website that
+                    is not only visually stunning but also achieves your
+                    business objectives. Contact us today to learn more about
+                    our services.
+                  </p>
+                </div>
+
+                <div class="sm:w-[50%] flex justify-center sm:pt-0 pt-5">
+                  <img
+                    style="
+                      border-radius: 10px;
+                      border-top-right-radius: 90px;
+                      border-bottom-left-radius: 90px;
+                    "
+                    src="images/idea-based-website.webp"
+                    alt=""
+                  />
+                </div>
+              </div> -->
+            </div>
